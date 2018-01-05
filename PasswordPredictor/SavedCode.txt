@@ -1,0 +1,40 @@
+﻿
+        //private static void Randomgeneration(string input)
+        //{
+        //    var inputLength = input.Length;
+        //    var randomString = Getrandom(inputLength);
+        //    var matches = Compare(input, randomString);
+        //    if (matches.Equals(null))
+        //    {
+
+        //    }
+        //}
+
+        //private static List<int> Compare(string input,string randomString)
+        //{
+        //    var listOfMatches = new List<int>();
+        //    for (int index = 0; index < input.Length; index++)
+        //    {
+        //        if (input[index].Equals(randomString[index]))
+        //        {
+        //            listOfMatches.Add(index);
+        //            Console.WriteLine(index);
+        //        }
+        //    }
+        //    return listOfMatches;
+        //}
+
+        //private static string Getrandom(int inputLength)
+        //{
+        //    var librarySet = "qwertyuiopasdfghjklzxcvbnm";
+        //    var librarysetLength = librarySet.Length;
+        //    var builder = new StringBuilder();
+        //    Random random = new Random();
+        //    for (var i = 0; i < inputLength; i++)
+        //    {
+        //        var c = librarySet[random.Next(0, librarysetLength)];
+        //        builder.Append(c);
+        //    }
+        //    Console.WriteLine(builder);
+        //    return builder.ToString(); ;
+        //}
